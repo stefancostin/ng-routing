@@ -20,7 +20,7 @@ export class ProductEditInfoComponent implements OnInit {
       this.product = data['resolvedData'].product;
 
       // Reset Form
-      if(this.productForm) {
+      if (this.productForm) {
         this.productForm.reset();
       }
     });
